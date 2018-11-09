@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>9.2 insertAfter</title>
+<script src="9.2_insertAfter.js"></script>
+</head>
+
+<body>
+    <div id="myDiv">
+        <p>First Row of text.</p>
+        <p>Third Row of text.</p>
+        <p>Fourth Row of text.</p>
+        <input id="insrtAftrBtn" value="Insert After" onclick='insertAfter(document.createElement("p"), document.getElementById("myDiv").childNodes[0])' type="button" />
+    </div>
+</body>
+</html>
